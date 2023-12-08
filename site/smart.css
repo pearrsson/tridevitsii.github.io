@@ -1,0 +1,258 @@
+body {
+
+    margin: 0;
+    background: url('фон.jpg');
+    background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+.hhh{display: flex;}
+.smart-text {
+    font-size: 11em;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+
+}
+
+.smart-text span {
+    animation: colorChange 2s infinite alternate;
+}
+
+
+
+  @keyframes colorChange {
+            0% {
+                color: #050b6e; /* красный */
+            }
+            25% {
+                color: #4d0585; /* зеленый */
+            }
+            50% {
+                color: #c408bb; /* синий */
+            }
+            75% {
+                color: #079bdb; /* фиолетовый */
+            }
+
+        }
+
+
+}
+.additional-text {
+            font-family: 'Courier New', monospace;
+            margin-top: 40px;
+            font-weight: bold;
+            margin-right: 30px;
+            flex-direction: column;}
+
+.text{
+  font-family: 'Courier New', monospace;
+  margin: 0;
+  padding: 5Vh;
+  font-weight: bold; /* Добавлен жирный шрифт */
+  text-shadow: 3px 3px 5px rgba(72, 61, 139, 0.8);
+  color: #fff;
+  font-size: 18px;
+
+}
+.s{display: flex;
+
+padding: 5vh}
+
+.s1{
+  font-size: 20em;
+  font-weight: bold;
+  margin-top: -13vh;
+  text-transform: uppercase;
+  display: flex
+}
+@keyframes scale {
+  0% {
+    transform: scale(0.7);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(0.7);
+  }
+}
+
+.s1 {
+  animation: scale 4s infinite; /* 2s - длительность анимации, infinite - бесконечное повторение */
+}
+
+
+.text2{
+  font-family: 'Courier New', monospace;
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold; /* Добавлен жирный шрифт */
+  text-shadow: 3px 3px 5px rgba(72, 61, 139, 0.8);
+  color: #fff;
+
+}
+.m{display: flex;
+padding: 5vh;
+margin-top: -15vh;
+}
+
+.m1{
+  font-size: 15em;
+  font-weight: bold;
+  display: flex;
+  text-transform: uppercase;
+margin-top: -13vh;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(0.7);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(0.7);
+  }
+}
+
+.m1 {
+  animation: scale 4s infinite; /* 2s - длительность анимации, infinite - бесконечное повторение */
+}
+
+
+.text3{
+  font-family: 'Courier New', monospace;
+  margin: 0;
+  font-size: 24px;
+  padding: 5Vh;
+  margin-top: -15vh;
+  font-weight: bold; /* Добавлен жирный шрифт */
+  text-shadow: 3px 3px 5px rgba(72, 61, 139, 0.8);
+  color: #fff;
+}
+.back-button {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+            font-size: 20px;
+            text-decoration: none;
+            color: #f78fe4;
+        }
+
+        .back-button::before {
+            content: '👱 👱 👱';
+            margin-right: 5px;
+
+        }
+
+  .back-button:hover{
+    font-size: 25px;
+    color: #f700ca;
+    text-shadow: rgba(247, 143, 228, 0.8)
+  }
+
+.a{display: flex;
+padding: 5vh}
+@keyframes scale {
+  0% {
+    transform: scale(0.7);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(0.7);
+  }
+}
+
+.a1 {
+  animation: scale 4s infinite; /* 2s - длительность анимации, infinite - бесконечное повторение */
+}
+
+.a1{
+  font-size: 20em;
+  font-weight: bold;
+  margin-top: -25vh;
+  text-transform: uppercase;
+  display: flex
+}
+.text4{
+  font-family: 'Courier New', monospace;
+  margin: 0;
+  font-size: 24px;
+  padding: 5Vh;
+  margin-top: -7vh;
+  font-weight: bold; /* Добавлен жирный шрифт */
+  text-shadow: 3px 3px 5px rgba(72, 61, 139, 0.8);
+  color: #fff;
+
+}
+.r{display: flex;
+padding: 5vh;
+margin-top: -15vh;
+}
+
+.r1{
+  font-size: 15em;
+  font-weight: bold;
+  display: flex;
+  text-transform: uppercase;
+margin-top: -13vh;
+}
+@keyframes scale {
+  0% {
+    transform: scale(0.7);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(0.7);
+  }
+}
+
+.r1 {
+  animation: scale 4s infinite; /* 2s - длительность анимации, infinite - бесконечное повторение */
+}
+.text5{
+  font-family: 'Courier New', monospace;
+  margin: 0;
+  font-size: 24px;
+  padding: 5Vh;
+  margin-top: -15vh;
+  font-weight: bold; /* Добавлен жирный шрифт */
+  text-shadow: 3px 3px 5px rgba(72, 61, 139, 0.8);
+  color: #fff;
+}
+
+.t{display: flex;
+padding: 5vh}
+
+.t1{
+  font-size: 20em;
+  font-weight: bold;
+  margin-top: -20vh;
+  text-transform: uppercase;
+  display: flex
+}
+@keyframes scale {
+  0% {
+    transform: scale(0.7);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(0.7);
+  }
+}
+
+.t1 {
+  animation: scale 4s infinite; /* 2s - длительность анимации, infinite - бесконечное повторение */
+}

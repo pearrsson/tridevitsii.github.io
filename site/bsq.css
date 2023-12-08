@@ -1,0 +1,81 @@
+body {
+      margin: 0;
+      background: url('фон.jpg');
+      background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.bsq-text {
+  font-size: 11em;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+}
+
+.bsq-text span {
+  animation: colorChange 2s infinite alternate;
+}
+.dom{display: flex;
+}
+.back-button {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+            font-size: 20px;
+            text-decoration: none;
+            color: #f78fe4;
+        }
+
+        .back-button::before {
+            content: '👱 👱 👱';
+            margin-right: 5px;
+
+        }
+
+  .back-button:hover{
+    font-size: 25px;
+    color: #f700ca;
+    text-shadow: rgba(247, 143, 228, 0.8)
+  }
+.intro, .kpi-types, .advantages, .disadvantages, .conclusion {
+  font-family: 'Courier New', monospace;
+  margin: 7vh;
+  font-weight: bold;
+  text-shadow: 3px 3px 5px rgba(53, 33, 188, 0.9);
+  font-size: 18px;
+  color: #fff;
+  margin-top: -3vh;
+}
+
+
+@keyframes colorChange {
+          0% {
+              color: #050b6e; /* красный */
+          }
+          25% {
+              color: #4d0585; /* зеленый */
+          }
+          50% {
+              color: #c408bb; /* синий */
+          }
+          75% {
+              color: #079bdb; /* фиолетовый */
+          }
+
+      }
+
+    .pp{
+      font-family: 'Courier New', monospace;
+      font-weight: bold;
+      text-shadow: 3px 3px 5px rgba(53, 33, 188, 0.9);
+      font-size: 20px;
+      color: #db078d;
+      display: flex;
+      padding: 2vh;
+      margin-top: -5vh;
+      justify-content: center;
+
+    }

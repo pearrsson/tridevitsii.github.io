@@ -1,0 +1,261 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+.main-section {
+  position: relative;
+  background-image: url('мы.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: 'Your Custom Font', sans-serif; /* Замените 'Your Custom Font' на желаемый шрифт */
+}
+
+.main-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(18, 23, 46, 0.9);
+}
+
+.main-text {
+  position: relative;
+  text-align: center;
+  font-size: 32px; /* Увеличиваем размер шрифта */
+  font-weight: bold;
+  letter-spacing: 2px; /* Увеличиваем расстояние между буквами (толщина) */
+  z-index: 1;
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5); /* Увеличиваем размер тени */
+}
+
+.back-button {
+
+            top: 20px;
+            left: 20px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+            font-size: 20px;
+            text-decoration: none;
+            color: #1b05f7;
+
+        }
+
+
+  .back-button:hover{
+    font-size: 20px;
+    color: #f700ca;
+    text-shadow: rgba(247, 143, 228, 0.8)
+  }
+
+
+.text{
+  font-family: Helvetica, sans-serif;
+  margin-top: 6vh;
+
+  font-weight: bold;
+  text-shadow: 3px 3px 5px rgba(6, 2, 46, 0.8);
+  color: #fff;
+  font-size: 40px;
+
+}
+.l{display: flex;
+padding: 5vh}
+
+.ll{
+  font-size: 12em;
+  font-weight: bold;
+  margin-top: -13vh;
+  text-transform: uppercase;
+  display: flex;
+  color: #060680;
+}
+@keyframes scale {
+  0% {
+    transform: scale(0.7);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(0.7);
+  }
+}
+
+.ll {
+  animation: scale 6s infinite; /* 2s - длительность анимации, infinite - бесконечное повторение */
+}
+
+p{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+#text_p1{
+    font-size: 18px;
+    text-align: justify;
+    padding: 30px 10.5%;
+}
+
+#to_observe_p1{
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+     font-style: normal;
+
+}
+
+
+#text_q1_p2, #text_q2_p2, #text_q3_p2, #text_q4_p2{
+    font-weight: 400;
+    font-size: 18px;
+    padding: 0 10.5%;
+    margin-top: 15px;
+    text-align: justify;
+
+}
+
+
+
+#obligations_p3 > div {
+    margin-right: 40px;
+    text-align: center;
+}
+
+#obligations_p3 > div:last-child {
+    margin-right: 0;
+}
+
+#obligations_p3 img {
+    max-width: 100%;
+}
+
+
+#obligations_h_p3{
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+#obligations_p3{
+    display: flex;
+    padding: 0 10%;
+    margin: 50px 0;
+
+}
+
+#obligation1_p3, #obligation2_p3, #obligation3_p3, #obligation4_p3, #obligation5_p3, #obligation6_p3{
+    width: 200px;
+    height: 250px;
+    border: 2px solid rgba(41, 100, 134, 0.3);
+    border-radius: 15px;
+    transition: background-color 0.5s;
+     font-style: normal;
+}
+
+#obligation1_p3:hover{background-color: #ff9900; /* Другой оттенок при наведении для второй кнопки */
+box-shadow: 0 0 10px #ff9900, 0 0 40px #ff9900;
+}
+#obligation2_p3:hover{background-color: #ffcc00; /* Другой оттенок при наведении для третьей кнопки */
+box-shadow: 0 0 10px #ffcc00, 0 0 40px #ffcc00;}
+ #obligation3_p3:hover{background-color: #66ff66; /* Другой оттенок при наведении для четвертой кнопки */
+ box-shadow: 0 0 10px #66ff66, 0 0 40px #66ff66;}
+  #obligation4_p3:hover{  background-color: #6699ff; /* Другой оттенок при наведении для пятой кнопки */
+    box-shadow: 0 0 10px #6699ff, 0 0 40px #6699ff;}
+   #obligation5_p3:hover{background-color: #cc66ff; /* Другой оттенок при наведении для шестой кнопки */
+   box-shadow: 0 0 10px #cc66ff, 0 0 40px #cc66ff;}
+    #obligation6_p3:hover{
+      background-color: #ff3300; /* Один оттенок при наведении для первой кнопки */
+      box-shadow: 0 0 10px #ff3300, 0 0 40px #ff3300;}
+
+
+#obligation2_p3, #obligation3_p3, #obligation4_p3, #obligation5_p3,, #obligation6_p3{
+    margin-left: 48px;
+}
+
+#obl1_p3, #obl2_p3, #obl3_p3, #obl4_p3, #obl5_p3, #obl6_p3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+}
+
+#text_obl1_p3, #text_obl2_p3,#text_obl6_p3{
+    font-weight: 500;
+    font-size: 18px;
+    width: 150px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
+#text_obl3_p3, #text_obl4_p3, #text_obl5_p3{
+    font-weight: 500;
+    font-size: 18px;
+    width: 150px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+}
+
+
+#text_p4{
+    font-weight: 500;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+.end{
+  display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+   padding: 10vh;
+    background: linear-gradient(to bottom, #ffffff,  #36045c, #020e40);
+
+}
+
+.additional-info
+{font-family: 'Courier New', monospace;
+margin-top: -20px;
+font-size: 16px;
+font-weight: bold; /* Добавлен жирный шрифт */
+text-shadow: 3px 3px 5px rgba(72, 61, 139, 0.8);
+color: #fff;
+margin-top: 2vh;
+}
+
+.s{
+  font-family: 'Courier New', monospace;
+  margin: 0;
+
+}
+.button{
+  font-size: 24px;
+  font-weight: bold; /* Добавлен жирный шрифт */
+  text-shadow: 3px 3px 5px rgba(72, 61, 139, 0.8);
+  color: #fff;
+  font-style: normal;
+}
+.button:hover{
+  color: #f705c7;
+
+}
